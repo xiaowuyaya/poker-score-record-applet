@@ -1,24 +1,11 @@
-import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
-import './index.scss'
+import {View} from "@tarojs/components";
 
-export default class Notice extends Component {
-
-  componentWillMount () { }
-
-  componentDidMount () { }
-
-  componentWillUnmount () { }
-
-  componentDidShow () { }
-
-  componentDidHide () { }
-
-  render () {
-    return (
-      <View className='notice'>
-        <Text>Hello world!</Text>
-      </View>
-    )
-  }
+function Index() {
+  return(
+    <View className='notice-container'>
+      notice
+    </View>
+  )
 }
+
+export default Index
