@@ -42,3 +42,14 @@ export const getRecordDataDetail = () =>{
     method: 'GET',
   })
 }
+
+/**
+ * 获取房间分享二维码
+ */
+export const getRoomShareQRCode = (data) =>{
+  return request({
+    path:'/game/getRoomShareQRCode.do',
+    method: 'GET',
+    data
+  })
+}

@@ -3,6 +3,7 @@ export default defineAppConfig({
     'pages/home/index',
     'pages/notice/index',
     'pages/tutorial/index',
+    'pages/room/index',
   ],
   window: {
     backgroundTextStyle: 'light',

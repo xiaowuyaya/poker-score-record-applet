@@ -1,6 +1,6 @@
 import {View} from "@tarojs/components";
 
-function Index() {
+function Tutorial() {
   return(
     <View className='tutorial-container'>
       tutorial
@@ -8,4 +8,4 @@ function Index() {
   )
 }
 
-export default Index
+export default Tutorial

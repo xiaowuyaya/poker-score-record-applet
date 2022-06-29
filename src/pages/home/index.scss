@@ -57,9 +57,9 @@
       padding: 18px;
       border-top: 1px #ff8b8b solid;
 
-      .record-box:first-child {
-        border-right: 1px #ff8b8b solid;
-      }
+      //.record-box:first-child {
+      //  border-right: 1px #ff8b8b solid;
+      //}
 
       .record-box{
         flex: 1;
@@ -111,13 +111,35 @@
         color: #333;
       }
     }
-
-
   }
 
   .menu{
     margin-top: 24px;
     border-radius: 20px;
     overflow: hidden;
+  }
+
+  .logout{
+    font-size: 22px;
+    color: #999999;
+    margin-top: 28px;
+    width: 100%;
+    text-align: center;
+  }
+  .join-room-popup{
+    width: 78%;
+    padding: 20px 32px 40px 32px;
+
+    .title{
+      color: #333333;
+      font-size: 34px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .btn{
+      margin-top: 20px;
+    }
+
   }
 }

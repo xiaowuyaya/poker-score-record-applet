@@ -1,6 +1,6 @@
 import {View} from "@tarojs/components";
 
-function Index() {
+function Notice() {
   return(
     <View className='notice-container'>
       notice
@@ -8,4 +8,4 @@ function Index() {
   )
 }
 
-export default Index
+export default Notice

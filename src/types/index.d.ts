@@ -17,3 +17,17 @@ declare interface IRecordData {
   winNum: number,
   winRate: number
 }
+
+// 玩家信息
+declare interface IPlayer {
+  avatarUrl: string,
+  nickName: string,
+  score: number
+}
+
+// 交易信息
+declare interface IDealRecord {
+  payer: string,
+  payee: string,
+  score: number
+}
